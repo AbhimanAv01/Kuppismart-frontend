@@ -1,0 +1,66 @@
+.addexpenses{
+    margin: 20px 400px;
+}
+table {
+    width: 100%;
+    margin: 20px 0;
+    border-collapse: collapse;
+    text-align: left;
+    background-color: #f9f9f9; /* Light background for table */
+  }
+  
+  th, td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #ddd;
+  }
+
+ 
+  /* Zebra striping */
+  tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  /* Button styling */
+  button {
+    background-color: #4CAF50; /* Green button */
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+    border-radius: 5px;
+  }
+
+  .deletebtn{
+    background-color: #ff0000; /* Green button */
+  }
+  
+  button:hover {
+    background-color: #646464;
+  }
+  
+  /* Center the table for tablet screens */
+  @media (min-width: 768px) and (max-width: 1024px) {
+    table {
+      width: 80%; /* Adjust table width for tablets */
+      margin: 0 auto; /* Center the table */
+    }
+    
+    h1 {
+      text-align: center; /* Center the title */
+      color: #333; /* Add some color to the title */
+    }
+  }
+  
+  /* For mobile screens */
+  @media (max-width: 767px) {
+    table {
+      width: 100%;
+      font-size: 14px; /* Make the text smaller for mobile */
+    }
+  
+    th, td {
+      padding: 8px;
+    }
+  }
+  

@@ -1,0 +1,79 @@
+/* Center the form container */
+/* Center the form container */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(211, 211, 211);
+  }
+  
+  /* Style for the form */
+  form {
+    width: 100%;
+    max-width: 400px; /* Limit the width of the form */
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Input fields styling */
+  input {
+    width: 100%; /* Make input fields take the full width of the form */
+    height: 45px; /* Increase input field height */
+    font-size: 16px; /* Increase font size */
+    padding: 10px;
+    margin-top: 5px; /* Add a margin between the label and input */
+    margin-bottom: 15px; /* Add space between input fields */
+    box-sizing: border-box; /* Ensure padding doesn't affect width */
+    border-radius: 5px;
+    background-color: #e4e4e4;
+    border: none;
+  }
+  
+  /* Label styling */
+  label {
+    display: block; /* Make label a block element to align with inputs */
+    font-size: 16px;
+    margin-bottom: 5px; /* Space between label and input */
+  }
+   
+  /* Black submit button */
+  .btn {
+    background-color: black;
+    border-color: black;
+    color: rgb(255, 255, 255);
+    height: 50px; /* Increase button height */
+    width: 100%; /* Make button take full width */
+    font-size: 18px; /* Increase font size */
+    border-radius: 5px;
+    background-color: #000000;
+    border: none;
+  }
+  
+  .btn:hover {
+    background-color: #333;
+    border-color: #333;
+  }
+
+
+  /* Style to make both elements inline */
+.login-text {
+    font-size: 13px; /* Adjust font size if needed */
+    text-align: center; /* Horizontally centers the text */
+    margin-top: 20px; /* Optional: Adds space above the text */
+    color: #7e7e7e;
+  }
+  
+  .login-link {
+    color: rgb(0, 0, 0); /* You can change the color for the "Log in" text */
+    cursor: pointer; /* Change cursor to pointer for a clickable look */
+    margin-left: 5px; /* Add some space between the two texts */
+    text-decoration: underline;
+  }
+  
+  .login-link:hover {
+    text-decoration: underline; /* Optional hover effect */
+  }
+  
